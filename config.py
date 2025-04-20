@@ -1,4 +1,4 @@
-GITHUB_TOKENS = ['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', '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', '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', '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', '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', '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', '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', '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', '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', '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', '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', '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', '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', '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']
+GITHUB_TOKENS = ['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','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','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','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']
 GITHUB_URL_FILE = 'rawGitUrls.txt'
 GITHUB_API_URL = 'https://api.github.com/search/code?q='
 GITHUB_API_COMMIT_URL = 'https://api.github.com/repos/'
